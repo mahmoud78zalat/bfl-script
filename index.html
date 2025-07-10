@@ -515,6 +515,68 @@
             padding: 15px;
             margin-bottom: 15px;
         }
+
+        /* About Tool Section */
+        .about-content {
+            background: linear-gradient(135deg, #f9f7f4 0%, #f5f2eb 100%);
+            border: 1px solid #e8e5de;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 15px;
+        }
+
+        .about-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: #d4af37;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .about-features {
+            display: grid;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+
+        .about-feature {
+            display: flex;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            border-left: 4px solid #d4af37;
+        }
+
+        .about-feature-title {
+            font-weight: 600;
+            color: #2c2c2c;
+            margin-bottom: 4px;
+        }
+
+        .about-feature-desc {
+            color: #666;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        .about-footer {
+            border-top: 2px solid #e8e5de;
+            padding-top: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .about-credit {
+            font-size: 13px;
+            color: #666;
+            font-weight: 500;
+        }
     </style>
 </head>
 <body>
@@ -657,6 +719,54 @@
 
             <div id="repliesContainer">
                 <!-- Replies will be generated here -->
+            </div>
+        </div>
+
+        <!-- About This Tool Section -->
+        <div class="section">
+            <h2 class="section-title">
+                ℹ️ About This Tool
+            </h2>
+            
+            <div class="about-content">
+                <div class="about-title">
+                    🛠️ CS Helper - Agent Support Tool
+                </div>
+                
+                <div class="about-features">
+                    <div class="about-feature">
+                        <div>
+                            <div class="about-feature-title">🎯 Purpose</div>
+                            <div class="about-feature-desc">Streamline customer service operations with quick access to templates, order conversion, and smart recommendations.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-feature">
+                        <div>
+                            <div class="about-feature-title">⚡ Features</div>
+                            <div class="about-feature-desc">Order ID conversion, personalized reply templates, smart recommendations, and customer personalization tools.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-feature">
+                        <div>
+                            <div class="about-feature-title">🚀 Usage</div>
+                            <div class="about-feature-desc">Click templates to insert directly into Verloop or copy to clipboard. Templates automatically adapt based on customer language and personalization settings.</div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-feature">
+                        <div>
+                            <div class="about-feature-title">🧠 Smart Recommendations</div>
+                            <div class="about-feature-desc">Get context-aware suggestions based on conversation flow and customer message analysis.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-footer">
+                    <div class="about-credit">Made by agent for agents ✨</div>
+                    <div class="about-credit">Made by: Mahmoud Zalat</div>
+                </div>
             </div>
         </div>
 
